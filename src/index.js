@@ -16,7 +16,8 @@ root.render(
 				/>
 				<link
 					href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@200&display=swap"
-					rel="stylesheet"
+					rel="preload"
+					as="style"
 				></link>
 			</head>
 			<body>
