@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LumosMyPage/static/css/main.7641c2a3.css",
-    "main.js": "/LumosMyPage/static/js/main.badb566d.js",
+    "main.css": "/LumosMyPage/static/css/main.617183b4.css",
+    "main.js": "/LumosMyPage/static/js/main.53a14d20.js",
     "static/js/787.d3428903.chunk.js": "/LumosMyPage/static/js/787.d3428903.chunk.js",
     "index.html": "/LumosMyPage/index.html",
-    "main.7641c2a3.css.map": "/LumosMyPage/static/css/main.7641c2a3.css.map",
-    "main.badb566d.js.map": "/LumosMyPage/static/js/main.badb566d.js.map",
+    "main.617183b4.css.map": "/LumosMyPage/static/css/main.617183b4.css.map",
+    "main.53a14d20.js.map": "/LumosMyPage/static/js/main.53a14d20.js.map",
     "787.d3428903.chunk.js.map": "/LumosMyPage/static/js/787.d3428903.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7641c2a3.css",
-    "static/js/main.badb566d.js"
+    "static/css/main.617183b4.css",
+    "static/js/main.53a14d20.js"
   ]
 }
