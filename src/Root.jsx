@@ -1,13 +1,12 @@
 import "./Root.scss";
 import Header from "./Header";
-import "./Body";
-import Body from "./Body";
+import ContentBody from "./ContentBody";
 
 function Root() {
 	return (
 		<div>
 			<Header />
-			<Body />
+			<ContentBody />
 		</div>
 	);
 }
