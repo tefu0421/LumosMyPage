@@ -1,14 +1,14 @@
 @import "variables";
 
 .Box {
-	float: left;
-	height: 48vw;
-	width: 48vw;
+	width: (100% - $BoxBetween * 1)/2;
+	aspect-ratio: 1;
+	//float: left;
+	margin-top: $BoxBetween;
 	background-color: $color5;
 	border-color: $color6;
-	border-width: 0.5vw;
-	border-style: solid;
-	margin: 0.5vw;
+	//border-width: $BoxBorder;
+	//border-style: solid;
 	display: table;
 	p {
 		display: table-cell;

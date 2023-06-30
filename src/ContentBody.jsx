@@ -1,4 +1,6 @@
 import Box from "./Box";
+import "./ContentBody.scss";
+
 export default function ContentBody() {
 	return (
 		<div class="content-body">
