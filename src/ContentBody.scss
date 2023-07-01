@@ -9,3 +9,35 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
+@for $i from 2 through length($BoxResponsiveBorder) {
+	@media screen and (max-width: nth($BoxResponsiveBorder,$i)) and (min-width: nth($BoxResponsiveBorder,($i - 1))) {
+		.content-body::before {
+			content: "";
+			display: block;
+			width: (100% - $BoxBetween * ($i - 1)) / $i;
+			order: 1;
+		}
+		.content-body::after {
+			content: "";
+			display: block;
+			width: (100% - $BoxBetween * ($i - 1)) / $i;
+		}
+	}
+}
+
+@media screen and (min-width: (nth($BoxResponsiveBorder,(length($BoxResponsiveBorder ))))) {
+	.content-body::before {
+		content: "";
+		display: block;
+		width: (100% - $BoxBetween * (length($BoxResponsiveBorder) - 1)) /
+			(length($BoxResponsiveBorder));
+		order: 1;
+	}
+	.content-body::after {
+		content: "";
+		display: block;
+		width: (100% - $BoxBetween * (length($BoxResponsiveBorder) - 1)) /
+			(length($BoxResponsiveBorder));
+	}
+}

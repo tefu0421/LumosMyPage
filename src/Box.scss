@@ -19,13 +19,14 @@
 @for $i from 2 through length($BoxResponsiveBorder) {
 	@media screen and (max-width: nth($BoxResponsiveBorder,$i)) and (min-width: nth($BoxResponsiveBorder,($i - 1))) {
 		.Box {
-			width: (100% - $BoxBetween) / $i;
+			width: (100% - $BoxBetween * ($i - 1)) / $i;
 		}
 	}
 }
 
 @media screen and (min-width: (nth($BoxResponsiveBorder,(length($BoxResponsiveBorder ))))) {
 	.Box {
-		width: (100% - $BoxBetween) / (length($BoxResponsiveBorder));
+		width: (100% - $BoxBetween * (length($BoxResponsiveBorder) - 1)) /
+			(length($BoxResponsiveBorder));
 	}
 }
