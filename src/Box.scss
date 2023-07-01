@@ -1,12 +1,11 @@
 @import "variables";
 
 .Box {
-	width: (100% - $BoxBetween * 1)/2;
 	aspect-ratio: 1;
-	//float: left;
 	margin-top: $BoxBetween;
 	background-color: $color5;
 	border-color: $color6;
+	//float: left;
 	//border-width: $BoxBorder;
 	//border-style: solid;
 	display: table;
@@ -14,5 +13,19 @@
 		display: table-cell;
 		text-align: center;
 		vertical-align: middle;
+	}
+}
+
+@for $i from 2 through length($BoxResponsiveBorder) {
+	@media screen and (max-width: nth($BoxResponsiveBorder,$i)) and (min-width: nth($BoxResponsiveBorder,($i - 1))) {
+		.Box {
+			width: (100% - $BoxBetween) / $i;
+		}
+	}
+}
+
+@media screen and (min-width: (nth($BoxResponsiveBorder,(length($BoxResponsiveBorder ))))) {
+	.Box {
+		width: (100% - $BoxBetween) / (length($BoxResponsiveBorder));
 	}
 }

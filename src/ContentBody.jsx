@@ -8,6 +8,8 @@ export default function ContentBody() {
 			<Box title="Title2" />
 			<Box title="Title3" />
 			<Box title="Title4" />
+			<Box title="Title5" />
+			<Box title="Title6" />
 		</div>
 	);
 }
