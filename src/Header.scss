@@ -5,11 +5,12 @@
 	border: 0px;
 	margin: 0px;
 	margin-top: 0%;
+	width: 100%;
 	h1 {
 		padding: 0.5em 0% 0.5em 0%;
 		margin: 0% 0% 0% 0%;
 		color: $color4;
-		font-weight: 100;
+		font-weight: 300; //min(100, 40vw);
 		letter-spacing: 0.07em;
 		text-align: center;
 	}

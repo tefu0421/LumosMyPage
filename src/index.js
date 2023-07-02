@@ -15,10 +15,10 @@ root.render(
 					crossorigin
 				/>
 				<link
-					href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@200&display=swap"
-					rel="preload"
-					as="style"
-				></link>
+					//rel="preload"
+					href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;300;400;500&display=block"
+					rel="stylesheet"
+				/>
 			</head>
 			<body>
 				<Root />
