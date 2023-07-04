@@ -9,6 +9,8 @@
 	//border-width: $BoxBorder;
 	//border-style: solid;
 	display: table;
+	transition-property: width, height, top, left;
+	transition-duration: 0.5s;
 	p {
 		display: table-cell;
 		text-align: center;
