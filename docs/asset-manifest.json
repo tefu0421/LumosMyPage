@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LumosMyPage/static/css/main.3387d638.css",
-    "main.js": "/LumosMyPage/static/js/main.1fbe6379.js",
-    "static/js/787.d3428903.chunk.js": "/LumosMyPage/static/js/787.d3428903.chunk.js",
-    "index.html": "/LumosMyPage/index.html",
-    "main.3387d638.css.map": "/LumosMyPage/static/css/main.3387d638.css.map",
-    "main.1fbe6379.js.map": "/LumosMyPage/static/js/main.1fbe6379.js.map",
-    "787.d3428903.chunk.js.map": "/LumosMyPage/static/js/787.d3428903.chunk.js.map"
+    "main.css": "/static/css/main.e507866b.css",
+    "main.js": "/static/js/main.e26ab32d.js",
+    "static/js/787.d3428903.chunk.js": "/static/js/787.d3428903.chunk.js",
+    "index.html": "/index.html",
+    "main.e507866b.css.map": "/static/css/main.e507866b.css.map",
+    "main.e26ab32d.js.map": "/static/js/main.e26ab32d.js.map",
+    "787.d3428903.chunk.js.map": "/static/js/787.d3428903.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3387d638.css",
-    "static/js/main.1fbe6379.js"
+    "static/css/main.e507866b.css",
+    "static/js/main.e26ab32d.js"
   ]
 }
