@@ -1,5 +1,5 @@
 import "./HomeRoot.scss";
-import Header from "./Header";
+import Header from "../common/Header";
 import ContentBody from "./ContentBody";
 
 export default function HomeRoot() {

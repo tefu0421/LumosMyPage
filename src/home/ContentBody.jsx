@@ -1,4 +1,4 @@
-import Box from "./Box";
+import Box from "../common/Box";
 import "./ContentBody.scss";
 
 export default function ContentBody() {

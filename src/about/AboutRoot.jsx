@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "../common/Header";
 
 export default function AboutRoot() {
 	return (
