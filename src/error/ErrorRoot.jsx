@@ -1,14 +1,12 @@
-import "./HomeRoot.scss";
 import Header from "../common/Header";
-import ContentBody from "./ContentBody";
 
-export default function HomeRoot() {
+export default function ErrorRoot() {
 	return (
 		<html>
 			<body>
 				<div>
 					<Header />
-					<ContentBody />
+					<p>404</p>
 				</div>
 			</body>
 		</html>

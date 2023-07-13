@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import ErrorRoot from "./error/ErrorRoot";
 import HomeRoot from "./home/HomeRoot";
 import AboutRoot from "./about/AboutRoot";
 
@@ -23,10 +24,10 @@ root.render(
 			/>
 		</head>
 		<Routes>
+			<Route exact path={"*"} element={<ErrorRoot />} />
 			<Route exact path={"/"} element={<HomeRoot />} />
 			<Route exact path={"/about"} element={<AboutRoot />} />
 		</Routes>
-		<Link to="/">Back To Top</Link>
 	</BrowserRouter>
 );
 
