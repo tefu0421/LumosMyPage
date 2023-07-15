@@ -14,5 +14,9 @@
 		font-size: min(32px, 15vw);
 		letter-spacing: 0.07em;
 		text-align: center;
+		cursor: pointer;
+		span {
+			margin-right: -0.07em;
+		}
 	}
 }

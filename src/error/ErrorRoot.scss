@@ -1,0 +1,22 @@
+@import "../common/variables";
+#number {
+	text-align: center;
+	font-size: min(300%, 25vw);
+	color: $color4;
+	letter-spacing: 0.3em;
+}
+
+#message {
+	text-align: center;
+	color: $color5;
+	font-size: min(150%, 25vw);
+	letter-spacing: 0.1em;
+}
+
+p[id="number"] > span {
+	margin-right: -0.3em;
+}
+
+p[id="message"] > span {
+	margin-right: -0.1em;
+}
