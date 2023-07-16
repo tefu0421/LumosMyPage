@@ -5,7 +5,9 @@ export default function Header() {
 	const navigate = useNavigate();
 	return (
 		<div class="header">
-			<h1 onClick={() => navigate("/")}>TeFu0421</h1>
+			<h1 onClick={() => navigate("/")}>
+				<span>TeFu0421</span>
+			</h1>
 		</div>
 	);
 }

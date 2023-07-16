@@ -1,4 +1,5 @@
 import Header from "../common/Header";
+import "./ErrorRoot.scss";
 
 export default function ErrorRoot() {
 	return (
@@ -6,7 +7,14 @@ export default function ErrorRoot() {
 			<body>
 				<div>
 					<Header />
-					<p>404</p>
+					<div>
+						<p id="number">
+							<span>404</span>
+						</p>
+						<p id="message">
+							<span>page not found</span>
+						</p>
+					</div>
 				</div>
 			</body>
 		</html>

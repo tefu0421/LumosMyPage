@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import ErrorRoot from "./error/ErrorRoot";
 import HomeRoot from "./home/HomeRoot";
@@ -26,6 +26,7 @@ root.render(
 		<Routes>
 			<Route exact path={"*"} element={<ErrorRoot />} />
 			<Route exact path={"/"} element={<HomeRoot />} />
+			<Route exact path={"/LumosMyPage"} element={<Navigate to="/" />} />
 			<Route exact path={"/about"} element={<AboutRoot />} />
 		</Routes>
 	</BrowserRouter>
