@@ -1,9 +1,27 @@
 @import "../common/variables";
+#content {
+	width: 100%;
+}
+
 #number {
 	text-align: center;
-	font-size: min(300%, 25vw);
-	color: $color4;
-	letter-spacing: 0.3em;
+	font-size: min(5vw, 40px);
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 10% auto;
+	width: 30%;
+	height: 20%;
+	p {
+		letter-spacing: 0.3em;
+		text-indent: 0.3em;
+		color: $color4;
+		margin: 0 auto 0 auto;
+		padding: 30px;
+		border: 1px;
+		border-style: groove;
+	}
 }
 
 #message {
@@ -11,12 +29,9 @@
 	color: $color5;
 	font-size: min(150%, 25vw);
 	letter-spacing: 0.1em;
+	text-indent: 0.1em;
 }
 
-p[id="number"] > span {
-	margin-right: -0.3em;
-}
-
-p[id="message"] > span {
-	margin-right: -0.1em;
+#debug {
+	text-align: center;
 }
